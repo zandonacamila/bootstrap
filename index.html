@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TopCasaFina Arquitetura</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+
+        <h2>Sobre nós</h2>
+        <img class="img-responsive" src="curso/assets/img/empresa.jpg" alt="Pessoas trabalhando">
+
+        <div class="panel-group" id="panel-parent">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 data-parent="#panel-parent" data-toggle="collapse" data-target="#first" class="panel-title">Desde 1935</h3>
+                </div>
+                <div id="first" class="collapse">
+                    <div class="panel-body">
+                        <p>A TopCasaFina Arquitetura vem desde 1935 adaptando soluções com as ideias mais criativas do mundo.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 data-parent="#panel-parent" data-toggle="collapse" data-target="#second" class="panel-title">Preços acessíveis</h3>
+                </div>
+                <div id="second" class="collapse">
+                    <div class="panel-body">
+                        <p>Os preços da TopCasaFina Arquitetura foram projetados para caber no seu bolso!</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 data-parent="#panel-parent" data-toggle="collapse" data-target="#third" class="panel-title">Alegria para colaborar com um mundo mais bonito.</h3>
+                </div>
+                <div id="third" class="collapse">
+                    <div class="panel-body">
+                        <p>Soluções que se adaptam ao seu bolso e ao meio ambiente.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+<script src="bootstrap/js/jquery.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+</html>
