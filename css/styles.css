@@ -68,3 +68,14 @@ footer {
 footer address:last-child {
     margin-bottom: 0;
 }
+
+@media(min-width: 768px) {
+    .colunas-2 {
+        width: 50%;
+        float: left;
+    }
+
+    #panel-parent {
+        margin-top:  0;
+    }
+}
